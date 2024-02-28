@@ -11,13 +11,13 @@
           "files": [
                {
                     "name": "main.go",
-                    "api": "adressHTTP/go/main.go",
+                    "api": "https://raw.githubusercontent.com/Zone-Libre/gogol-api/main/go/simple/main.txt",
                     "description": "Using a main.go file in a Go project serves as the designated entry point for executable applications, adhering to a widely recognized convention, facilitating clarity, organization, and executable output generation.",
                     "cmd": []
                },
                {
                     "name": "main_test.go",
-                    "api": "adressHTTP/go/main_test.go",
+                    "api": "https://raw.githubusercontent.com/Zone-Libre/gogol-api/main/go/simple/main_test.txt",
                     "description": "main_test.go file in a Go project serves as a convention for writing tests for the corresponding main.go file, facilitating separate testing of the application logic, ensuring code quality, and supporting test-driven development practices.",
                     "cmd": []
                }
@@ -36,13 +36,13 @@
                               "files":[
                                    {
                                         "name": "myfunction.go",
-                                        "api": "adressHTTP/go/pkg/mylibrary/myfunction.go",
+                                        "api": "https://raw.githubusercontent.com/Zone-Libre/gogol-api/main/go/simple/pkg/myLibrary/myFunction.txt",
                                         "description": "You can put your external function here",
                                         "cmd": []
                                    },
                                    {
                                         "name": "myfunction_test.go",
-                                        "api": "adressHTTP/go/pkg/mylibrary/myfunction_test.go",
+                                        "api": "https://raw.githubusercontent.com/Zone-Libre/gogol-api/main/go/simple/pkg/myLibrary/myFunction_test.txt",
                                         "description": "You can put your external function here",
                                         "cmd": []
                                    }

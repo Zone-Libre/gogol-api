@@ -1,9 +1,11 @@
-{
+[
+     {
      "langages": [
        {
          "name": "go",
-         "api": "https://api.python.org/"
+         "api": "https://github.com/Zone-Libre/gogol-api/blob/main/go/go.json"
        }
      ]
    }
+]
    

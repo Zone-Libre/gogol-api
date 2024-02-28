@@ -1,0 +1,9 @@
+{
+     "langages": [
+       {
+         "name": "go",
+         "api": "https://api.python.org/"
+       }
+     ]
+   }
+   

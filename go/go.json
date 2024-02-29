@@ -1,58 +1,68 @@
 {
-     "name": "go", 
-     "types": {
-         "basic": {
-          "cmd":[
-               {    
-                    "init": ["go", "mod", "init"],
-                    "dependancies": ["go", "get", "-u"]
-               }
-          ],
-          "files": [
-               {
-                    "name": "main.go",
-                    "api": "https://raw.githubusercontent.com/Zone-Libre/gogol-api/main/go/simple/main.txt",
-                    "description": "Using a main.go file in a Go project serves as the designated entry point for executable applications, adhering to a widely recognized convention, facilitating clarity, organization, and executable output generation.",
-                    "cmd": []
-               },
-               {
-                    "name": "main_test.go",
-                    "api": "https://raw.githubusercontent.com/Zone-Libre/gogol-api/main/go/simple/main_test.txt",
-                    "description": "main_test.go file in a Go project serves as a convention for writing tests for the corresponding main.go file, facilitating separate testing of the application logic, ensuring code quality, and supporting test-driven development practices.",
-                    "cmd": []
-               }
-          ],
-          "subdirectories": [
-               {
-                    "name": "pkg",
-                    "api": "adressHTTP/go/pkg",
-                    "description": "Creating a directory named `pkg` in a Go project serves as a convention for organizing reusable packages or libraries, promoting modularization, code reusability, and maintainability in Go projects.",
-                    "files": [],
+     "name": "go",
+     "types": [
+          {
+               "basic": {
+                    "cmd": [
+                         {
+                              "init": [
+                                   "go",
+                                   "mod",
+                                   "init"
+                              ],
+                              "dependancies": [
+                                   "go",
+                                   "get",
+                                   "-u"
+                              ]
+                         }
+                    ],
+                    "files": [
+                         {
+                              "name": "main.go",
+                              "api": "https://raw.githubusercontent.com/Zone-Libre/gogol-api/main/go/simple/main.txt",
+                              "description": "Using a main.go file in a Go project serves as the designated entry point for executable applications, adhering to a widely recognized convention, facilitating clarity, organization, and executable output generation.",
+                              "cmd": []
+                         },
+                         {
+                              "name": "main_test.go",
+                              "api": "https://raw.githubusercontent.com/Zone-Libre/gogol-api/main/go/simple/main_test.txt",
+                              "description": "main_test.go file in a Go project serves as a convention for writing tests for the corresponding main.go file, facilitating separate testing of the application logic, ensuring code quality, and supporting test-driven development practices.",
+                              "cmd": []
+                         }
+                    ],
                     "subdirectories": [
                          {
-                              "name": "mylibrairy",
-                              "api": "adressHTTP/go/pkg/mylibrary",
-                              "description":"my-library inside the pkg directory of a Go project adheres to the convention for structuring a reusable library or package within the project's package ecosystem, enhancing code organization, modularity, and reusability for the library's components across the project or potentially across multiple projects.",
-                              "files":[
+                              "name": "pkg",
+                              "api": "adressHTTP/go/pkg",
+                              "description": "Creating a directory named `pkg` in a Go project serves as a convention for organizing reusable packages or libraries, promoting modularization, code reusability, and maintainability in Go projects.",
+                              "files": [],
+                              "subdirectories": [
                                    {
-                                        "name": "myfunction.go",
-                                        "api": "https://raw.githubusercontent.com/Zone-Libre/gogol-api/main/go/simple/pkg/myLibrary/myFunction.txt",
-                                        "description": "You can put your external function here",
-                                        "cmd": []
-                                   },
-                                   {
-                                        "name": "myfunction_test.go",
-                                        "api": "https://raw.githubusercontent.com/Zone-Libre/gogol-api/main/go/simple/pkg/myLibrary/myFunction_test.txt",
-                                        "description": "You can put your external function here",
+                                        "name": "mylibrairy",
+                                        "api": "adressHTTP/go/pkg/mylibrary",
+                                        "description": "my-library inside the pkg directory of a Go project adheres to the convention for structuring a reusable library or package within the project's package ecosystem, enhancing code organization, modularity, and reusability for the library's components across the project or potentially across multiple projects.",
+                                        "files": [
+                                             {
+                                                  "name": "myfunction.go",
+                                                  "api": "https://raw.githubusercontent.com/Zone-Libre/gogol-api/main/go/simple/pkg/myLibrary/myFunction.txt",
+                                                  "description": "You can put your external function here",
+                                                  "cmd": []
+                                             },
+                                             {
+                                                  "name": "myfunction_test.go",
+                                                  "api": "https://raw.githubusercontent.com/Zone-Libre/gogol-api/main/go/simple/pkg/myLibrary/myFunction_test.txt",
+                                                  "description": "You can put your external function here",
+                                                  "cmd": []
+                                             }
+                                        ],
                                         "cmd": []
                                    }
                               ],
                               "cmd": []
                          }
-                    ],
-                    "cmd": []
+                    ]
                }
-          ]
-         } 
-     }
+          }
+     ]
 }

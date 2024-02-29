@@ -1,7 +1,7 @@
 {
      "name": "go", 
      "types": {
-         "simple": {
+         "basic": {
           "cmd":[
                {    
                     "init": ["go", "mod", "init"],

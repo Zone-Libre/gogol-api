@@ -5,14 +5,16 @@
                "name": "basic",
                "cmd": [
                     {
-                         "init": [
+                        "name": "init",
+                        "cmd": [
                               "go",
                               "mod",
                               "init"
                          ]
                     },
                     {
-                         "dependancies": [
+                         "name" : "dependencies",
+                         "cmd": [
                               "go",
                               "get",
                               "-u"

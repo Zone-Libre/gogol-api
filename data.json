@@ -4,6 +4,10 @@
        {
          "name": "go",
          "api": "https://github.com/Zone-Libre/gogol-api/blob/main/go/go.json"
+       },
+          {
+         "name": "python",
+         "api": "https://github.com/Zone-Libre/gogol-api/blob/main/go/go.json"
        }
      ]
    }

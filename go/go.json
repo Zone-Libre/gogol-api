@@ -2,7 +2,7 @@
      "name": "go",
      "types": [
           {
-               "basic": {
+               "name": "basic", 
                     "cmd": [
                          {
                               "init": [
@@ -62,7 +62,7 @@
                               "cmd": []
                          }
                     ]
-               }
+               
           }
      ]
 }

@@ -3,7 +3,7 @@
      "langages": [
        {
          "name": "go",
-         "api": "https://github.com/Zone-Libre/gogol-api/blob/main/go/go.json"
+         "api": "https://raw.githubusercontent.com/Zone-Libre/gogol-api/main/go/go.json"
        },
           {
          "name": "python",

@@ -6,7 +6,7 @@ adhering to a widely recognized convention, facilitating clarity, organization, 
 */
 import (
 	"fmt"
-	mylibrary "%s/pkg/myLibrary"
+	mylibrary "%s/pkg/mylibrary"
 )
 
 func main() {

@@ -1,7 +1,7 @@
 package mylibrary_test
 
 import (
-	mylibrary "%s/pkg/myLibrary"
+	mylibrary "%s/pkg/mylibrary"
 	"testing"
 )
 

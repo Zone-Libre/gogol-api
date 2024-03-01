@@ -39,7 +39,7 @@
                "files": [],
                "subdirectories": [
                     {
-                         "name": "mylibrairy",
+                         "name": "mylibrary",
                          "api": "adressHTTP/go/pkg/mylibrary",
                          "description": "my-library inside the pkg directory of a Go project adheres to the convention for structuring a reusable library or package within the project's package ecosystem, enhancing code organization, modularity, and reusability for the library's components across the project or potentially across multiple projects.",
                          "files": [

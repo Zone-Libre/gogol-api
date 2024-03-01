@@ -24,7 +24,7 @@ func TestMainOutput(t *testing.T) {
 	if err != nil {
 		t.Fatalf("Command failed with error: %v", err)
 	}
-	expected := "Hello %s"
+	expected := "Hello %q"
 	actual := stdout.String()
 	if strings.TrimSpace(actual) != expected {
 		t.Errorf("Expected output %q, got %q", expected, actual)
